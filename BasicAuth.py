@@ -1,9 +1,9 @@
 import base64
 import requests
 
-users=['administrator', 'admin']
-passwords=['admin123','admin']
-protectedResource = 'http://localhost/secured'
+users=['administrator', 'admin']#USERS LIST
+passwords=['admin123','admin']#PSW LIST
+protectedResource = 'http://localhost/secured'#URL NEED AUTH
 
 foundPass = False
 for user in users:
